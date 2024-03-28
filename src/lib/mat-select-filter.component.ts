@@ -9,7 +9,7 @@ import {
 } from '@angular/cdk/keycodes';
 import { Subscription } from 'rxjs';
 @Component({
-  selector: 'mat-select-filter',
+  selector: 'mat-option-filter',
   template: `
   <form [formGroup]="searchForm" class="mat-filter" [ngStyle]="{'background-color': color ? color : 'white'}">
   <div>
